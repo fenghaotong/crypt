@@ -72,12 +72,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\guoca\Desktop\cryptopp820;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\guoca\Desktop\cryptopp820\Win32\Output\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\guoca\Desktop\crypt;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\guoca\Desktop\crypt\Win32\Output\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\guoca\Desktop\crypt;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\guoca\Desktop\crypt;$(IncludePath);</IncludePath>
     <LibraryPath>C:\Users\guoca\Desktop\crypt\Win32\Output\Debug$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="crypt.h" />
+    <ClInclude Include="httplib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

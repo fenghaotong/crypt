@@ -26,5 +26,8 @@
     <ClInclude Include="crypt.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="httplib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
